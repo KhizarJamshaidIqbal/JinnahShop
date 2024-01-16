@@ -1,0 +1,66 @@
+﻿
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Jinnah Shop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+          integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="\css\CSS\index.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <!-- announcement-bar -->
+    <div class="announcement-bar sm:text-center sm:mx-auto sm:w-full sm:text-xs lg:mx-auto lg:w-full lg:text-base md:text-sm ">
+        <p class="announcement-bar__message-left" style="color: white;">Free delivery nationwide for orders above PKR 3000</p>
+        <p class="announcement-bar__message-center" style="color: white;">
+            Enjoy free shipping on prepaid orders
+            with code <span class="text-red-500"
+                            style="font-weight: bold;margin-left: 5px; margin-right: 5px;">FREESHIPPING</span> at
+            checkout.
+        </p>
+        <div class="announcement-bar__message_right" style="color: white;">
+            <p style="padding-right: 10px; color: white;" class="p1-phonenumber">+92 3107923290</p>
+            <p class="p2-Email color: white;">sales@jinnahenterprise.com</p>
+        </div>
+    </div>
+
+    <!-- header -->
+    <header class="sm:text-center sm:mx-auto sm:w-full bg-white">
+        <div>
+            <div class="header-left text-base">
+                <h1 class="sm:text-xs lg:text-base md:text-ms ">JinnahShop</h1>
+            </div>
+            <div class="header-right">
+                <i class="fa-brands fa-searchengin" ></i>
+                <a href="/Profile"><i class="fa-regular fa-user"></i></a>
+                <i class="fa-regular fa-heart"></i>
+                <a href="/Cart"><i class="fas fa-shopping-cart"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Stright line -->
+    <div class="line"></div>
+
+    <!-- Navigation Bar -->
+    <div class="Navigation-Bar ">
+        <ul>
+            <li><a href="/"><i class="fa-solid fa-house" @onclick"Home"></i>Home</a></li>
+            <li>fragrances & perfumes</li>
+            <li>fragrances & perfumes</li>
+            <li>Makeup kit</li>
+            <li>lipstick</li>
+            <li>watchs</li>
+            <li style="color: red;"><a href="/ViewProducts"><strong>New Arrival</strong></a></li>
+        </ul>
+    </div>
+
+</body>
+</html>
+
+@code {
+
+}
